@@ -1,0 +1,20 @@
+[package]
+name = "minithrust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[workspace]
+members = [
+    "bundle/*",
+    "feat/*",
+    "lib/*",
+]
+exclude = [
+    "bundle/chrome_extension",
+    "bundle/ios_app",
+    "bundle/web_ui",
+]

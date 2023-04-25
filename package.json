@@ -1,0 +1,27 @@
+{
+  "name": "@suinplayground/minithrust",
+  "version": "0.0.0-development",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "suin",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "**/*.{js,ts,map}",
+    "!*.{test,spec}.*",
+    "!testUtils.*"
+  ],
+  "packageManager": "yarn@3.2.4",
+  "engines": {
+    "node": ">=16.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
